@@ -33,7 +33,7 @@ fun main() {
         println("Pinged after: "+client.appservice.ping("trixnitytest").getOrElse{ e ->
             println(e.message)
             e.printStackTrace()
-            return@getOrElse Ping.Response(durationMs = 0);
+            return@getOrElse Ping.Response(durationMs = 0)
         }.durationMs)
     }
 }
