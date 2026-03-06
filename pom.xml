@@ -7,6 +7,13 @@
     <groupId>hub.guzio.SaneServer</groupId>
     <artifactId>hub.guzio.SaneServer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <comments>Copyright © 2026 Guzio | Licensed under MIT</comments>
+            <url>https://github.com/GuzioMG/SaneServer/blob/main/LICENSE</url>
+        </license>
+    </licenses>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
